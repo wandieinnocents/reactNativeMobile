@@ -33,6 +33,11 @@ const Tab = createBottomTabNavigator();
 export default function App() {
   return (
     <NavigationContainer>
+
+
+
+
+
       <Tab.Navigator>
         <Tab.Screen name="Home" component={HomeScreen} />
         <Tab.Screen name="Requests" component={RequestsScreen} options={{ tabBarBadge: 3  }} />
